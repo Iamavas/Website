@@ -1,0 +1,415 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    /* background: linear-gradient(#5510A9, #5510A9, #2D1A42); */
+
+    color: white;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.header {
+    width: 100%;
+    height: 30px;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    position: fixed; /* Fix the header at the top */
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+  }
+  
+  /* Prevent content from being hidden under the fixed header */
+  body {
+    padding-top: 50px; /* Adjust based on header height */
+  }
+  
+
+
+.logo-image {
+    height: 30px;
+}
+
+
+/* .background {
+    position: relative;
+    overflow: hidden;
+}
+
+.bg-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -2;
+}
+
+.dots-image {
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    z-index: -1;
+}
+
+.oval-copy-2, .oval-copy, .oval, .top-image {
+    position: absolute;
+    z-index: -1;
+}
+
+.oval-copy-2 {
+    top: 200px;
+    right: 100px;
+}
+
+.oval-copy {
+    top: 300px;
+    right: 200px;
+}
+
+.oval {
+    top: 400px;
+    right: 300px;
+}
+
+.top-image {
+    top: 0;
+    right: 0;
+} */
+
+ .hero-section{
+    background-image: linear-gradient(to right, rgba(85, 16, 169, 1), rgba(85, 16, 169, 1), rgba(45, 26, 66, 1));
+
+ }
+
+.main-container{
+    /* border: 1px solid red; */
+    display: flex;
+    padding:6rem 6rem 0 6rem;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 100%; */
+}
+.hero-left-container{
+    /* border: 1px solid white; */
+    width: 35%;
+    padding: .5rem;
+}
+.hero-right-container{
+    /* border: 1px solid white; */
+    width: 40%;
+}
+.crypto-image {
+    /* max-width: 400px; */
+    width: 100%;
+   
+  }
+.text-container h1 {
+    font-family: 'ITC Avant Garde Gothic Std', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 65px;
+    letter-spacing: -2px;
+    /* border: 1px solid black; */
+    margin-bottom: 0;
+}
+
+
+.hero-paragraph {
+  opacity: 0.65;
+  font-family: 'ITC Avant Garde Gothic Std', sans-serif;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 25px;
+  letter-spacing: -0.2px;
+  color: #cfcfcf;
+  /* margin: 20px 0; */
+  text-align: left; 
+  
+   /* border: 1px solid white; */
+}
+
+
+.download-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    /* border: 1px solid white; */
+    width: 100%;
+}
+
+.download-buttons img {
+    width: 45%;
+    transition: transform 0.3s ease;
+}
+
+.download-image:hover {
+    transform: scale(1.1);
+}
+
+.head-title{
+    /* border: 1px solid black; */
+    font-family: 'ITC Avant Garde Gothic Std', sans-serif;
+    color: black;
+    width: 40%;
+    margin-left: 8%;
+    margin-bottom: 30px;
+    align-items: center;
+
+}
+
+.header-text{
+    /* border: 1px solid green; */
+    font-size: 50px;
+    margin-bottom: 0;
+    margin-top: 100px;
+}
+.head-description{
+    font-family: 'ITC Avant Garde Gothic Std' sans-serif;
+    font-size: 30px;
+    /* border: 1px solid black; */
+    color: #707A8A;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+
+.bills-frame {
+    background-color: #F5F2FF;
+    /* border: 1px solid black; */
+    margin-left: 6rem;
+    margin-right: 15rem;
+    margin-bottom: 80px;
+    border-radius: 20px;
+    display: flex;  /* Enables flexbox */
+    justify-content: space-between; /* Adjust spacing between divs */
+    align-items: center; /* Aligns divs vertically */
+    height: 600px;
+    width: 1194px;
+
+}
+
+
+.section-content{
+    /* border: 2px solid blue; */
+    font-family: 'ITC Avant Garde Gothic Std', sans-serif;
+    width: 40%;
+   margin-left: 2%;
+   margin-right: 5%;
+   align-items: left;
+   padding: 2px;
+}
+
+.left-image{
+    /* border: 1px solid red; */
+    color: black;
+    width: 45%;
+}
+
+.title-300{
+    /* border: 1px solid black; */
+    font-family: 'ITC Avant Garde Gothic Std', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px;
+    .highlight{
+        color: #FF6D1C;
+    }
+}
+.Providers-content{
+    /* border: 1px solid black; */
+    font-size: 18px;
+    color: black;
+    padding: 20px;
+    font-weight: lighter;
+    letter-spacing: 1px; 
+    /* font-weight: 300; */
+}
+
+.under-images{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    position: relative;
+    margin-bottom: 70px;
+    
+}
+/* .logo-easy{
+    border: 1px solid black;
+    margin-right: 20%;
+} */
+.logo-safe{
+    /* border: 1px solid black; */
+    margin-left: 5%;
+}
+.logo-competitive{
+    /* border: 1px solid black; */
+    margin-left: 5%;
+}
+
+.section-3{
+    /* border: 1px solid blue; */
+    display: flex;  /* Enables flexbox */
+    justify-content: space-between; /* Adjust spacing between divs */
+    align-items: center; /* Aligns divs vertically */
+}
+
+.section-wallet{
+    /* border: 1px solid black; */
+    color: black;
+    width: 35%;
+    padding-left: 80px;
+
+}
+
+.wallet-300{
+    /* border: 1px solid black; */
+    font-family: 'ITC Avant Garde Gothic Std', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px;
+    .highlight2{
+        color: #FF6D1C;
+    }
+}
+
+.wallet-content{
+    /* border: 1px solid black; */
+    font-family: 'ITC Avant Garde Gothic Std', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    color: black;
+    padding: 20px;
+    font-weight: lighter;
+    letter-spacing: 1px; 
+}
+
+.Phone-image{
+    /* border: 1px solid black; */
+    width: 50%;
+    padding-right: 100px;
+}
+
+.half-frame {
+    /* border: 2px solid red; */
+    background-color: #F5F2FF;
+    margin-left: 6rem;
+    margin-right: 15rem;
+    margin-bottom: 300px;
+    border-radius: 20px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+    width: 1194px;
+}
+
+.left-image-2{
+    /* border: 1px solid black; */
+    margin-top: 10%;
+    padding-left: 20%;
+
+}
+
+.half-content{
+    /* border: 2px solid blue; */
+    font-family: 'ITC Avant Garde Gothic Std', sans-serif;
+    width: 40%;
+   margin-left: 2%;
+   margin-right: 5%;
+   align-items: left;
+   padding: 2px;
+}
+
+.title-200{
+    /* border: 1px solid black; */
+    font-family: 'ITC Avant Garde Gothic Std', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px;
+    .highlight-200{
+        color: #FF6D1C;
+    }
+}
+
+.download-buttons-2 {
+    display: flex;
+    gap: 20px;
+    /* border: 1px solid red; */
+    width: 100%;
+}
+
+.footer{
+    background-color: #2D1A42;
+
+}
+
+.footer-content{
+    /* border: 1px solid red; */
+    /* display: flex; 
+    justify-content: space-between;
+    align-items: center; */
+    padding: 50px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+    height: 300px; 
+}
+
+.all-content{
+    /* border: 1px solid green; */
+    display: flex; 
+    justify-content: space-between;
+    align-items: top;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+}
+
+.logo-footer{
+    /* border: 1px solid blue; */
+    width: 32%;
+}
+.footer-long-text {
+    /* border: 1px solid white; */
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 15px;
+    font-weight: 200; 
+    opacity: 0.5;
+    letter-spacing: 1px;
+}
+
+.footer-social-icons {
+    /* border: 1px solid white; */
+    padding: 6px;
+    display: flex; 
+    gap: 20px; 
+}
+
+.Company-footer{
+    /* border: 1px solid blue; */
+    line-height: 2;
+}
+.Support-footer{
+    /* border: 1px solid blue; */
+    line-height: 2;
+}
+.Exchange-footer{
+    /* border: 1px solid blue; */
+    line-height: 2;
+}
+.header-footer{
+    /* border: 1px solid white; */
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 15px;
+    font-weight: 200; 
+    opacity: 0.8;
+    letter-spacing: 1px;
+}
